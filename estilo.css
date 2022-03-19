@@ -1,22 +1,24 @@
 /* navegacion frontal */
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
 }
 
 .barra{
 
     list-style: none;
     padding: 0;
-    background-color: blue;
+    
+    background-color:rgb(84, 255, 4);
     width: 90%;
     max-width: 1000px;
     margin: auto;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .barra li a{
     text-decoration: none;
-    color: white;
+    color: rgb(2, 0, 0);
     padding: 20px;
     display: block;
 }
@@ -27,5 +29,27 @@ body{
 }
 
 .barra li a:hover{
-    background: red;
+    background: rgb(2, 213, 250);
+}
+
+/* iconos */
+.icono{
+    color:rgb(84, 255, 4);
+    font-size: 40px;
+}
+.iconos{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+
+/*article
+*/
+article{
+    color: rgb(132, 245, 2);
+}
+/* cuerpo */
+.texto{
+    position: absolute;
 }
